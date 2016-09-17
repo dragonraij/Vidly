@@ -11,11 +11,13 @@ namespace Vidly.Controllers
         {
             var movie = new Movie() { Name = "Shrek!" };
 
-            //return View(movie);
+            ViewData["Movie"] = movie;
+
+            return View();
             //return Content("Hello World");
             // return HttpNotFound();
             // return new EmptyResult();
-            return RedirectToAction("Index", "Home");
+            //return RedirectToAction("Index", "Home");
         }
 
         public ActionResult Edit(int id)
