@@ -12,8 +12,8 @@ namespace Vidly.Controllers
         {
             var customers = new List<Customer>
             {
-                new Customer { Name = "John Smith"},
-                new Customer { Name = "Eric Andreas"}
+                new Customer { Name = "John Smith",Id = 1},
+                new Customer { Name = "Eric Andreas", Id = 2}
             };
 
             var viewModel = new CustomersViewModel
@@ -23,5 +23,26 @@ namespace Vidly.Controllers
 
             return View(viewModel);
         }
+
+        //customer details
+        [Route("customers/detail/{id}")]
+        public ActionResult Details(int id)
+        {
+            Customer customer = new Customer();
+            if (id == 1)
+            {
+                customer.Name = "John Smith";
+
+            }
+            else if (id == 2)
+                customer.Name = "Eric Andreas";
+            else
+                return HttpNotFound();
+            return View(customer);
+
+
+        }
+
+
     }
 }

@@ -15,7 +15,7 @@
 }
 else
 {
-    <table class="table-striped" style="width:100%; padding:5px">
+    <table class="table table-bordered table-hover" >
         <tr>
             <th>
                 Customer Name
@@ -23,11 +23,11 @@ else
 
         </tr>
 
-
+        <a href=""></a>
         @foreach (var customer in Model.Customers)
         {
             <tr>
-                <td>@customer.Name</td>
+                <td><a href="customers/detail/@customer.Id">@customer.Name</a></td>
             </tr>
 
         }

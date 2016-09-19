@@ -13,8 +13,8 @@ namespace Vidly.Controllers
         {
             var movies = new List<Movie>
             {
-                new Movie { Name = "The Incredibles"},
-                new Movie { Name = "Legend of Moana"}
+                new Movie { Name = "The Incredibles", Id = 1},
+                new Movie { Name = "Legend of Moana", Id = 2}
             };
 
             var viewModel = new MoviesViewModel
@@ -71,6 +71,22 @@ namespace Vidly.Controllers
         public ActionResult ByReleaseDate(int year, int month)
         {
             return Content(year + "/" + month);
+        }
+
+        [Route("movies/detail/{id}")]
+        public ActionResult Details(int id)
+        {
+            var movie = new Movie();
+
+            if (id == 1)
+                movie.Name = "The Incredibles";
+            else if (id == 2)
+                movie.Name = "The Legend of Moana";
+            else
+                return HttpNotFound();
+            return
+                View(movie);
+
         }
     }
 }

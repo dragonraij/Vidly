@@ -16,7 +16,7 @@
 }
 else
 {
-    <table class="table-striped" style="width:100%; padding:5px">
+    <table class="table table-bordered table-hover" style="width:100%; padding:5px">
         <tr>
             <th>
                 Movie Name
@@ -28,7 +28,7 @@ else
         @foreach (var movie in Model.Movies)
         {
         <tr>
-            <td>@movie.Name</td>
+            <td><a href="movies/detail/@movie.Id">@movie.Name</a></td>
         </tr>
 
         }
