@@ -67,3 +67,5 @@ C:\adata\Vidly\Vidly\Vidly\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
 C:\adata\Vidly\Vidly\Vidly\obj\Debug\Vidly.csprojResolveAssemblyReference.cache
 C:\adata\Vidly\Vidly\Vidly\obj\Debug\Vidly.dll
 C:\adata\Vidly\Vidly\Vidly\obj\Debug\Vidly.pdb
+C:\adata\Vidly\Vidly\Vidly\obj\Debug\Vidly.Migrations.InitialModel.resources
+C:\adata\Vidly\Vidly\Vidly\obj\Debug\Vidly.csproj.GenerateResource.Cache
