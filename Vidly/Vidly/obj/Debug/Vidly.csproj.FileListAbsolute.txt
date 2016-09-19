@@ -69,3 +69,5 @@ C:\adata\Vidly\Vidly\Vidly\obj\Debug\Vidly.dll
 C:\adata\Vidly\Vidly\Vidly\obj\Debug\Vidly.pdb
 C:\adata\Vidly\Vidly\Vidly\obj\Debug\Vidly.Migrations.InitialModel.resources
 C:\adata\Vidly\Vidly\Vidly\obj\Debug\Vidly.csproj.GenerateResource.Cache
+C:\adata\Vidly\Vidly\Vidly\obj\Debug\Vidly.Migrations.AddSubscribtionStatus.resources
+C:\adata\Vidly\Vidly\Vidly\obj\Debug\Vidly.Migrations.AddMembershipType.resources
