@@ -1,0 +1,37 @@
+﻿
+@model Vidly.ViewModels.CustomersViewModel
+
+
+@{
+    ViewBag.Title = "Customers";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h3>Index</h3>
+
+@if (Model.Customers.Count ==0)
+{
+    <text>No Customers were detected</text>
+}
+else
+{
+    <table class="table-striped" style="width:100%; padding:5px">
+        <tr>
+            <th>
+                Customer Name
+            </th>
+
+        </tr>
+
+
+        @foreach (var customer in Model.Customers)
+        {
+            <tr>
+                <td>@customer.Name</td>
+            </tr>
+
+        }
+
+    </table>
+}
+

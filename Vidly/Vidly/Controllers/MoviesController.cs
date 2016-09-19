@@ -11,12 +11,18 @@ namespace Vidly.Controllers
 
         public ActionResult Index()
         {
-            var movie = new Movie()
+            var movies = new List<Movie>
             {
-
+                new Movie { Name = "The Incredibles"},
+                new Movie { Name = "Legend of Moana"}
             };
 
-            return View();
+            var viewModel = new MoviesViewModel
+            {
+                Movies = movies
+            };
+
+            return View(viewModel);
 
         }
 
@@ -50,7 +56,7 @@ namespace Vidly.Controllers
         }
 
         //movies
-        public ActionResult Index(int? pageIndex, string sortBy)
+        public ActionResult Index2(int? pageIndex, string sortBy)
         {
             if (!pageIndex.HasValue)
                 pageIndex = 1;
