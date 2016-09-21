@@ -71,3 +71,5 @@ C:\adata\Vidly\Vidly\Vidly\obj\Debug\Vidly.Migrations.InitialModel.resources
 C:\adata\Vidly\Vidly\Vidly\obj\Debug\Vidly.csproj.GenerateResource.Cache
 C:\adata\Vidly\Vidly\Vidly\obj\Debug\Vidly.Migrations.AddSubscribtionStatus.resources
 C:\adata\Vidly\Vidly\Vidly\obj\Debug\Vidly.Migrations.AddMembershipType.resources
+C:\adata\Vidly\Vidly\Vidly\obj\Debug\Vidly.Migrations.populateMembershipTypes.resources
+C:\adata\Vidly\Vidly\Vidly\obj\Debug\Vidly.Migrations.applyannotationstocustomername.resources
