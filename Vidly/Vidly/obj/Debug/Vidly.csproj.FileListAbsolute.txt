@@ -75,3 +75,5 @@ C:\adata\Vidly\Vidly\Vidly\obj\Debug\Vidly.Migrations.populateMembershipTypes.re
 C:\adata\Vidly\Vidly\Vidly\obj\Debug\Vidly.Migrations.applyannotationstocustomername.resources
 C:\adata\Vidly\Vidly\Vidly\obj\Debug\Vidly.Migrations.addMembershipTypes.resources
 C:\adata\Vidly\Vidly\Vidly\obj\Debug\Vidly.Migrations.addDateofBirth.resources
+C:\adata\Vidly\Vidly\Vidly\obj\Debug\Vidly.Migrations.addGenreToModel.resources
+C:\adata\Vidly\Vidly\Vidly\obj\Debug\Vidly.Migrations.makeGenreNonOptionalAttribute.resources
