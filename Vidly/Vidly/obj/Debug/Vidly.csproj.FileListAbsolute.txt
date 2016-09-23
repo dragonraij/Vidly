@@ -77,3 +77,5 @@ C:\adata\Vidly\Vidly\Vidly\obj\Debug\Vidly.Migrations.addMembershipTypes.resourc
 C:\adata\Vidly\Vidly\Vidly\obj\Debug\Vidly.Migrations.addDateofBirth.resources
 C:\adata\Vidly\Vidly\Vidly\obj\Debug\Vidly.Migrations.addGenreToModel.resources
 C:\adata\Vidly\Vidly\Vidly\obj\Debug\Vidly.Migrations.makeGenreNonOptionalAttribute.resources
+C:\adata\Vidly\Vidly\Vidly\obj\Debug\Vidly.Migrations.makeGenretypes.resources
+C:\adata\Vidly\Vidly\Vidly\obj\Debug\Vidly.Migrations.addattributestomovies.resources
