@@ -9,7 +9,7 @@
 @*List of movies *@
 
 <h3>Movies</h3>
-
+<a href="Movies/New" class="btn btn-info" style="margin-bottom:10px">Add New</a>
 @if (Model.Movies.Count == 0)
 {
     <text>No movies were found</text>
@@ -31,7 +31,7 @@ else
         @foreach (var movie in Model.Movies)
         {
         <tr>
-            <td><a href="movies/detail/@movie.Id">@movie.Name</a></td>
+            <td><a href="movies/edit/@movie.Id">@movie.Name</a></td>
             <td>@movie.Genre.Name</td>
         </tr>
 
