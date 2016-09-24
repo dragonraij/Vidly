@@ -37,5 +37,5 @@
    
     @Html.HiddenFor(m => m.Movie.DateAdded)
     <button type="submit" class="btn btn-primary">Save</button>
-    <a href="../" class="btn btn-link" >Cancel</a>
+    <a href="@Url.Action("Index", "Movies")" class="btn btn-link" >Cancel</a>
 }
